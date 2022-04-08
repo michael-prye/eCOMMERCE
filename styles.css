@@ -10,3 +10,9 @@ html{
     box-sizing: border-box;
     font-size: 62.5%;
 }
+
+.ul_nav_bar {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
