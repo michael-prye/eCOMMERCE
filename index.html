@@ -9,18 +9,31 @@
 </head>
 <body>
     <header>
-        <ul class="ul_nav_bar"> 
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#products">PRODUCTS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="ul_nav_bar"> 
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    
+                </ul>
+                <form class="nav_search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+          
+        
     </header>
     <section id="home">
-        <div>
-            <img src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="vase_pic">
-        </div>
-
+        <img  class="vase" src="./assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="vase_pic" >
+        <div class="top-left"><p>ceramics</p><p>crafted by</p><p>hand...</p></div>
+        <div class="bottom-right"><p>...FROM THE</p><p>GROUND UP</p></div>
+        
     </section>
     <section id="about"></section>
     <section id="products"></section>

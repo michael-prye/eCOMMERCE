@@ -15,4 +15,38 @@ html{
     list-style-type: none;
     display: flex;
     gap: 10px;
+    height: 5rem;
+
+}
+.nav_search{
+    position: absolute;
+    right: 30px;
+    width: auto;
+    display: inline-block;
+    margin-top: -40px;
+}
+
+.vase{
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+.top-left{
+    text-transform: uppercase;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-size: medium;
+    color: green;
+    
+}
+.bottom-right{
+    position: absolute;
+    margin-top: -60px;
+    right: 30px;
+    font-size: medium;
+    color: crimson;
+}
+.navbar{
+    display: flex;
 }
