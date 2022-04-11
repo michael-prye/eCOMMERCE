@@ -110,7 +110,7 @@ html{
      height: 162px;
      font-size: 20px;
  }
- .about-div{
+ .div-flex{
      display: flex;
  }
  .about-img1{
@@ -120,4 +120,48 @@ html{
  .about-img2{
      width: 200px;
      height: auto;
+ }
+ .product-card{    
+    width: 399px;
+    height: 692px;
+    margin-top: 121px;
+ }
+ .product-card-img{
+    width: 398px;
+    height: 398px;
+ }
+ .product-card-price{
+     margin-left: 84px;
+ }
+ .heading-2{
+    display: flex;
+    font-size: 30px;
+ }
+ .product-card-hr{
+    border-top: 5px solid;
+    width: 250px;
+ }
+ .product-card-desc{
+     font-size: 20px;
+ }
+ .product-card-ft{
+     display: flex;
+     margin-top: 26px;
+ }
+ .product-card-learn{
+    font-size: 20px;
+    color: #c96f26;
+ }
+ .product-card-cart{
+    margin-left: 138px;
+    font-size: 20px;
+    background-color: #bf7631;
+    color: white;
+ }
+ .product-grid{
+    display: grid;
+    grid-template-areas: 
+    "top top top"
+    "mid mid mid"
+    "bot bot bot";
  }
