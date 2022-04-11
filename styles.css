@@ -14,20 +14,46 @@ html{
 .ul_nav_bar {
     list-style-type: none;
     display: flex;
-    gap: 10px;
     height: 5rem;
 
 }
+.nav-links{
+    display: flex;
+    gap: 15px;
+    align-items: flex-end;
+    font-size: medium;
+    text-decoration: none;
+    
+}
+.links{
+    text-decoration: none;
+}
 .nav_search{
     position: absolute;
-    right: 30px;
+    right: 20px;
     width: auto;
-    display: inline-block;
+    display: inline-flex;
     margin-top: -40px;
+    opacity: 50%;
+    border-right: none;
+}
+.search-icon{
+    height: auto;
+    width: 15px;
+}
+.btn{
+    position: relative;
+    display: inline;
+    border-left: none;
+    float: left;
+
+    
+    
 }
 
+
 .vase{
-    margin-top: 50px;
+    margin-top: 5px;
     height: auto;
     width: 100%;
     display: flex;
@@ -38,7 +64,7 @@ html{
 .top-left{
     text-transform: uppercase;
     position: absolute;
-    top: 150px;
+    top: 100px;
     left: 55px;
     font-size: medium;
     color: green;
@@ -52,18 +78,22 @@ html{
     color: crimson;
 }
 .navbar{
+    border-bottom: 1px solid;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
 }
 .logo-pic{
     position: absolute;
-    margin-left: 45%; 
+    margin-left: 45%;
     margin-right: auto;
     display: inline-flex;
     align-items: center;
+    font-size: large;
 }
- .logo-vase{
-     height: 50px;
-    /* background-color: red; */
-    /* filter: invert(100%); */
+.logo-vase{
+    height: 50px;
+    /* background-color: red;
+    filter: invert(100%);  */
     
  }
