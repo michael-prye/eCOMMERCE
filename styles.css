@@ -34,23 +34,24 @@ html{
     width: auto;
     display: inline-flex;
     margin-top: -40px;
-    opacity: 50%;
     border-right: none;
 }
 .search-icon{
     height: auto;
     width: 15px;
 }
-.btn{
+.btn-search{
     position: relative;
     display: inline;
     border-left: none;
     float: left;
-
-    
-    
 }
 
+.cart{
+color: black;
+padding-left: 10px;
+right: 20px
+}
 
 .vase{
     margin-top: 5px;
@@ -121,6 +122,7 @@ html{
      width: 200px;
      height: auto;
  }
+<<<<<<< HEAD
  .product-card{    
     width: 399px;
     height: 692px;
@@ -165,3 +167,28 @@ html{
     "mid mid mid"
     "bot bot bot";
  }
+=======
+
+ .contact-us{
+
+    border-top: 5px solid;
+    margin-right: 380px;
+
+ }
+ .contact-text{
+     font-size: medium;
+     text-transform: uppercase;
+
+ }
+ .form-control-contact{
+     width: 250px;
+     display: flex;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ /* .contact-info{
+     width: 200px;
+     margin-top: 20px;
+     padding-bottom: 20px; } */
+
+>>>>>>> 72d536a52c48ffaae5709e77c3bbf3186bf51f0e
