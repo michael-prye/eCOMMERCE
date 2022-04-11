@@ -34,7 +34,6 @@ html{
     width: auto;
     display: inline-flex;
     margin-top: -40px;
-    opacity: 50%;
     border-right: none;
 }
 .search-icon{
@@ -46,11 +45,13 @@ html{
     display: inline;
     border-left: none;
     float: left;
-
-    
-    
 }
 
+.cart{
+color: black;
+padding-left: 10px;
+right: 20px
+}
 
 .vase{
     margin-top: 5px;
