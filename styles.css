@@ -97,11 +97,11 @@ html{
     filter: invert(100%);  */
     
  }
- .hr-about{
+ .hr{
      border-top: 5px solid;
      margin-right: 380px;
  }
- .about-section{
+ .section{
      margin-left: 140px;
      margin-right: 140px;
  }
