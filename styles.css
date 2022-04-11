@@ -106,6 +106,11 @@ right: 20px
      margin-left: 140px;
      margin-right: 140px;
  }
+ .header{
+    margin-top: 121px;
+    font-size: 45px;
+
+ }
  .about-p1{
      width: 888px;
      height: 162px;
@@ -122,7 +127,6 @@ right: 20px
      width: 200px;
      height: auto;
  }
-<<<<<<< HEAD
  .product-card{    
     width: 399px;
     height: 692px;
@@ -167,7 +171,6 @@ right: 20px
     "mid mid mid"
     "bot bot bot";
  }
-=======
 
  .contact-us{
 
@@ -176,8 +179,10 @@ right: 20px
 
  }
  .contact-text{
-     font-size: medium;
-     text-transform: uppercase;
+    font-size: medium;
+    text-transform: uppercase;
+    margin-top: 121px;
+    font-size: 45px;
 
  }
  .form-control-contact{
@@ -191,4 +196,3 @@ right: 20px
      margin-top: 20px;
      padding-bottom: 20px; } */
 
->>>>>>> 72d536a52c48ffaae5709e77c3bbf3186bf51f0e
