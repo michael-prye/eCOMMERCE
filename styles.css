@@ -83,3 +83,11 @@ html{
  .about-div{
      display: flex;
  }
+ .about-img1{
+     width: 200px;
+     height: auto;
+ }
+ .about-img2{
+     width: 200px;
+     height: auto;
+ }
