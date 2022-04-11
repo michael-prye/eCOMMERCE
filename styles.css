@@ -112,20 +112,24 @@ right: 20px
 
  }
  .about-p1{
-     width: 888px;
-     height: 162px;
      font-size: 20px;
+     margin-top: 75px;
  }
  .div-flex{
      display: flex;
+
  }
  .about-img1{
-     width: 200px;
-     height: auto;
+    width: 397px;
+    height: 534px;
+    margin-top: 75px;
+    margin-right: 10px;
  }
  .about-img2{
-     width: 200px;
-     height: auto;
+     margin-top: 10px;
+     width: 450px;
+    height: 800px;
+    
  }
  .product-card{    
     width: 399px;
