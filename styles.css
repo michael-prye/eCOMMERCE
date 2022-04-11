@@ -40,7 +40,7 @@ html{
     height: auto;
     width: 15px;
 }
-.btn{
+.btn-search{
     position: relative;
     display: inline;
     border-left: none;
@@ -122,3 +122,26 @@ right: 20px
      width: 200px;
      height: auto;
  }
+
+ .contact-us{
+
+    border-top: 5px solid;
+    margin-right: 380px;
+
+ }
+ .contact-text{
+     font-size: medium;
+     text-transform: uppercase;
+
+ }
+ .form-control-contact{
+     width: 250px;
+     display: flex;
+     margin-top: 20px;
+     margin-bottom: 20px;
+ }
+ /* .contact-info{
+     width: 200px;
+     margin-top: 20px;
+     padding-bottom: 20px; } */
+
