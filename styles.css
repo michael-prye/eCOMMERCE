@@ -67,16 +67,16 @@ right: 20px
     position: absolute;
     top: 100px;
     left: 55px;
-    font-size: medium;
-    color: green;
+    font-size: xx-large;
+    color: white;
     
 }
 .bottom-right{
     position: absolute;
     margin-top: -100px;
     right: 55px;
-    font-size: medium;
-    color: crimson;
+    font-size: xx-large;
+    color: white;
 }
 .navbar{
     border-bottom: 2px solid;
