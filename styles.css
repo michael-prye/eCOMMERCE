@@ -204,13 +204,16 @@ right: 20px
 .footer{
     margin-top: 30px;
     width: 100%;
-    border-top: 200px solid #bf7631;
+    border-top: 100px solid #bf7631;
 
 
 }
 .thumb{
     /* filter: invert(100%); */
     background-color: #bf7631;
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;    
 }
 
 .foot-logo{
@@ -220,22 +223,23 @@ right: 20px
     align-items: center;
     font-size: x-large;
     display: inline-flex;
-    margin-top: -200px;
+    margin-top: -80px;
 
 
 
 }
 .footer-bottom-left{
     position: absolute;
-    left: 20px;
-    margin-top: -200px;
+    left: 15%;
+    margin-top: -80px;
+    width: auto;
 
 }
 .footer-bottom-right{
     position: absolute;
-    right: 20px;
-    margin-top: -200px;
-
-
+    right: 15%;
+    margin-top: -80px;
 
 }
+
+
